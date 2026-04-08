@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: glyphx
-  version: 1.2.10
+  version: "2.0.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/glyphx-${{ version }}.tar.gz
-  sha256: 96e838da7f6db84d77a6c7466e2b261d4b167519f3370535b5db7e25b0ca296a
+  sha256: 848c34a2111479b4a209f090dc6b59b2f6d84fbca3b7fd53da3fcde4ae038571
 
 build:
   number: 0
