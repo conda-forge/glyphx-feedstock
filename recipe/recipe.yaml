@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: glyphx
-  version: "3.0.0"
+  version: "4.0.0"
   python_min: "3.12"
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/glyphx-${{ version }}.tar.gz
-  sha256: f62c61b6f66fe9c29c0381da29caa0374c43cdf4cacc594c8bd53038171efc90
+  sha256: b703f7a9dcccc9d5404486fcd2a3258ee7773ec001f7f198c6e73a4cb481bb7a
 
 build:
   number: 0
@@ -29,7 +29,7 @@ requirements:
     - python >=${{ python_min }}
     - numpy >=1.26
     - pandas >=2.1
-    
+
 tests:
   - python:
       imports:
